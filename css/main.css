@@ -1,0 +1,266 @@
+body {
+  font-family: 'tahoma';
+  font-size: 15px;
+}
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.edit {
+  font-weight: 13px;
+  color: gray;
+}
+.clr {
+clear: both;
+display: block;
+}
+form li {
+  margin-bottom: 5px;
+}
+label {
+  margin-bottom: 5px;
+  font-size: 13px;
+  display: block;
+}
+select {
+   height: 31px;
+   width: 100%;
+}
+input {
+  height: 31px;
+  border:1px #dbdbdb solid;
+  padding: 4px;
+  width: 100%;
+  box-sizing:border-box;
+}
+.rest {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  display: none;
+
+  height: 100%;
+  background: #fff url('../images/relax.gif') no-repeat center center;
+    background-size: cover; /* Масштабируем фон */
+}
+.history_tabs_menu li {
+  display: inline-block;
+  margin-right: 10px;
+  
+}
+.history_tabs_menu li a {
+  color: grey;
+}
+.history_tabs_menu li.active a {
+  color: #000;
+}
+.history_tables {
+  margin-bottom: 10px;
+}
+.history_tables {
+  float: left;
+  width: 550px;
+  display: none;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.history_tables.active {
+  display: block;
+}
+.history_tables_name {
+  margin-bottom: 15px;
+  font-weight: bold;
+  display: none;
+}
+.button{
+  color: #fff;
+  background: #2d5598;
+  padding:8px;
+  font-size: 14px;
+  display: inline-block;
+  cursor: pointer;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.button.gray {
+  background: #8195b6;
+}
+.button.green {
+  background: #69d476;
+}
+.button.red {
+  background: #d46969;
+}
+.tabs_menu li {
+  display: inline-block;
+ 
+  cursor: pointer;
+}
+.tabs_menu li a {
+   color: #a0a0a0;
+  padding: 8px;
+   display: inline-block;
+     font-weight: bold;
+}
+.main_tabs_menu li {
+  text-transform: uppercase;
+  font-size: 19px;
+  display: none;
+
+}
+.tabs_menu li a.active {
+  color: #000;
+}
+.ti_box {
+  width: 300px;
+  display: inline-block;
+  margin-right: 10px;
+}
+table {
+  width: 100%;
+margin-bottom: 50px;
+border-spacing: 0;
+    border-collapse: collapse;
+}
+.tab_box {
+  display: none;
+}
+.tab_box.active {
+  display: block;
+}
+table thead tr td{
+  font-size: 13px;
+  text-align: center;
+}
+table td {
+  padding:5px 8px;
+  border:1px #e6e6e6 solid;
+}
+table thead td {
+  background: #f7f7f7;
+}
+table tbody tr td {
+  text-align: center;
+}
+table tbody tr:hover{
+  background: #e6e6e6;
+}
+table tbody tr td:nth-child(1) {
+  width: 20px;
+}
+.info_item {
+  display: block;
+  width: 48%;
+  float:left;
+  margin: 0 1% 25px 0;
+}
+.kt_number {
+  background: #eeeeee;
+  padding: 6px;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+}
+.hide_title, .history_title {
+   text-transform: uppercase;
+  font-size: 19px;
+  font-weight: bold;
+
+  margin-bottom: 10px;
+}
+.history_title {
+  display: none;
+}
+.global_timer {
+  margin-top: 40px;
+}
+.global_timer .timer {
+  font-size: 36px;
+  font-weight: bold;
+}
+.timer_bt {
+  display: inline-block;
+
+}
+/**/
+.ti_b_name {
+  margin-bottom: 15px;
+}
+/**/
+
+.jst-hours {
+ display: inline-block;
+}
+.jst-minutes {
+  display: inline-block;
+}
+.jst-seconds {
+  display: inline-block;
+}
+.jst-clearDiv {
+  clear: both;
+}
+.jst-timeout {
+  color: red;
+}
+
+.mask{
+  background:rgba(0, 0, 0, 0.75);
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.preloader {
+  background:rgba(0, 0, 0, 0.75) url('../images/load.gif') no-repeat center center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  height: 100%;
+  width: 100%;
+  z-index: 99;
+}
+.pop_window {
+  display: none;
+  position: fixed;
+  top: 150px;
+  left: 50%;
+  margin: 0 0 0 -200px;
+  z-index: 99;
+  padding: 15px;
+  width: 500px;
+  background: #fff;
+  border-radius: 5px;
+}
+.pop_window ul li {
+  margin-bottom: 10px;
+}
+.window_title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.notify_block {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 300px;
+}
+.notify_item {
+  background: #222;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+}

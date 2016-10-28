@@ -1,0 +1,27 @@
+/*media css desctop mobile*/
+@media only screen and (max-width: 1140px) {
+	
+}
+
+@media only screen and (max-width: 960px) {
+	
+
+	.info_item {
+		width: auto;
+		float: none;
+		margin: 0;
+		display: none;
+	}
+	.info_item.active {
+		display: block;
+	}
+	.main_tabs_menu, .main_tabs_menu li {
+		display:inline-block;
+	}
+	.hide_title {
+		display: none;
+	}
+	.global_timer, .reset_lk {
+		display: none;
+	}
+}

@@ -1,0 +1,187 @@
+﻿/*************************
+Автор: MDWeb
+Skype: biotar666
+Услуги: html, css, js, jquery, dle, ucoz, wordpress, opencart, landing page
+*************************/
+
+
+html, body {
+	
+}
+
+a {
+	color: #000;
+	transition: background 0.3s;
+	-webkit-transition: background 0.3s;
+	-moz-transition: background 0.3s;
+	-o-transition: background 0.3s;
+	-ms-transition: background 0.3s;
+}
+
+img {
+	max-width: 100%;
+}
+
+.block {
+	display: block;
+}
+
+.none {
+	display: none;
+}
+
+.ps_a {
+	position: absolute;
+}
+
+.ps_r {
+	position: relative;
+}
+
+.ps_f {
+	position: fixed;
+}
+
+.mr_b {
+	margin-bottom: 20px;
+}
+
+.mr_t {
+	margin-top: 20px;
+}
+
+.mr_l {
+	margin-left: 20px;
+}
+
+.mr_r {
+	margin-right: 20px;
+}
+
+.mr_n {
+	margin: none;
+}
+
+.txt_i {
+	text-indent: 30px;
+}
+
+.txt_r {
+	text-align: right;
+}
+
+.txt_l {
+	text-align: left;
+}
+
+.txt_s {
+	font-style: italic;
+}
+
+.txt_th {
+	text-decoration: line-through;;
+}
+
+.txt_up {
+	text-transform: uppercase;
+}
+
+.txt_un {
+	text-decoration: underline;
+}
+
+.txt_nu {
+	text-decoration: none;
+}
+
+.center {
+	text-align: center;
+}
+
+.clearfix:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.clear {
+	clear: both;
+}
+
+.width {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+/*TIMER*/
+#clock {
+}
+
+.numbTimer {
+}
+
+.timer_item {
+	display: inline-block;
+	vertical-align: middle;
+}
+.timer_item p {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.razd {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.dayTimer {
+}
+
+.timer_name {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.tn_day {
+}
+
+.tn_hour {
+}
+
+.tn_min {
+}
+
+.tn_sec {
+}
+/*END TIMER*/
+
+/*POLITIKA*/
+.politica {
+	text-align: center;
+	margin: 10px 0 0 0;
+}
+
+.politica span {
+	color: #fff;
+	font-size: 12px;
+}
+
+.politika-txt {
+	height: 300px;
+}
+
+.politika-txt p {
+margin-bottom: 15px;
+}
+
+.politika-txt strong {
+font-weight: bold;
+}
